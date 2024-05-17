@@ -1,0 +1,24 @@
+
+    .tema {
+        border-left: 10px solid;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .tema1 { border-color: red; }
+    .tema2 { border-color: orange; }
+    .tema3 { border-color: yellow; }
+    .tema4 { border-color: green; }
+    .tema5 { border-color: blue; }
+    .tema6 { border-color: indigo; }
+    .tema7 { border-color: violet; }
+    .tema8 { border-color: brown; }
+    .tema9 { border-color: black; }
+    .pregunta {
+        background-color: #f0f0f0;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .respuesta {
+        font-weight: bold;
+    }
+    
