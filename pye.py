@@ -127,8 +127,6 @@ def generate_css():
         margin-bottom: 10px;
         padding: 10px;
     }
-    .respuesta {
-    }
     """
     return css_content
 
