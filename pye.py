@@ -96,7 +96,7 @@ def generate_html(sols):
         html_content += "<div class='preguntas'>"  # Apertura de preguntas
         for pregunta, respuesta in tema:
             html_content += f'<div class="pregunta"><p><b>{nPreg} Pr:</b> {escape(pregunta)}</p>'
-            html_content += f'<p class="respuesta"> Resp: {escape(respuesta)}</p></div>'
+            html_content += f'<p class="respuesta"> <b>Resp:</b> {escape(respuesta)}</p></div>'
             nPreg += 1
         html_content += "</div>"  # Cierre de preguntas
         html_content += "</div>"  # Cierre de tema
@@ -105,6 +105,9 @@ def generate_html(sols):
 
 def generate_css():
     css_content = """
+    body {
+    font-family: sans-serif;
+    }   
     .tema {
         border-left: 10px solid;
         padding-left: 10px;
@@ -125,7 +128,6 @@ def generate_css():
         padding: 10px;
     }
     .respuesta {
-        font-weight: bold;
     }
     """
     return css_content
